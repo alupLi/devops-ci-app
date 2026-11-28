@@ -25,6 +25,10 @@ def test_index(client):
     assert response.status_code == 200
     assert response.get_json() == {
         "service": "devops-ci-app",
+<<<<<<< HEAD
         "version": "1.0.0",
+=======
+        "version": "1.1.67-alupLi",
+>>>>>>> f34080a (feat: bump version to 1.1.67-alupLi)
         "status": "running",
     }
