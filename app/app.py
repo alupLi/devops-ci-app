@@ -16,11 +16,7 @@ def create_app():
         """Возвращает сведения о службе."""
         return jsonify(
             service="devops-ci-app",
-<<<<<<< HEAD
-            version="1.0.0",
-=======
             version="1.1.67-alupLi",
->>>>>>> f34080a (feat: bump version to 1.1.67-alupLi)
             status="running",
         )
 
